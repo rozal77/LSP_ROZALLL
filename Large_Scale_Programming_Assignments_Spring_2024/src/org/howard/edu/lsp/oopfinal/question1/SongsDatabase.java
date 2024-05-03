@@ -6,6 +6,7 @@ public class SongsDatabase {
     private Map<String, Set<String>> map = new HashMap<String, Set<String>>();
 
     /* Add a song title to a genre */
+    /* creates a new key value pair for new genre song */
     public void addSong(String genre, String songTitle) {
         Set<String> songs = map.getOrDefault(genre, new HashSet<>());
         songs.add(songTitle);
@@ -19,6 +20,7 @@ public class SongsDatabase {
                 return entry.getKey();
             }
         }
+        // returns null if there is no song of the particular title under the genre
         return null;
     }
 

@@ -8,7 +8,7 @@ public class CreditCardPayment implements PaymentStrategy {
     }
 
     @Override
-    public void pay(double amount) {
-        System.out.println("Paid " + amount + " using credit card " + creditCardNumber);
+    public void pay(double amt) {
+        System.out.println("Paid " + amt + " using credit card " + creditCardNumber);
     }
 }

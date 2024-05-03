@@ -7,8 +7,8 @@ package org.howard.edu.lsp.oopfinal.question2;
 	        this.paymentStrategy = paymentStrategy;
 	    }
 
-	    public void checkout(double amount) {
-	        paymentStrategy.pay(amount);
+	    public void checkout(double amt) {
+	        paymentStrategy.pay(amt);
 	    }
 	}
 

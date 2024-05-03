@@ -8,7 +8,7 @@ package org.howard.edu.lsp.oopfinal.question2;
 	    }
 
 	    @Override
-	    public void pay(double amount) {
-	        System.out.println("Paid " + amount + " using PayPal account " + emailAddress);
+	    public void pay(double amt) {
+	        System.out.println("Paid " + amt + " using PayPal account " + emailAddress);
 	    }
 	}
